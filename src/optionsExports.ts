@@ -625,29 +625,7 @@ export const chatGPTIdeas: Options = {
   ],
 };
 
-export const thursFood: Options = {
-  optionText: "I want to ",
-  subOptions: [
-    {
-      optionText: "make food at ",
-      subOptions: [
-        { optionText: "August's apartment" },
-        { optionText: "my house" },
-      ],
-    },
-    {
-      optionText: "buy food and eat it at ",
-      subOptions: [
-        { optionText: "August's apartment" },
-        { optionText: "my house" },
-        { optionText: "the restaurant" },
-        { optionText: "the park" },
-      ],
-    },
-  ],
-};
-
-export const thursAfterFood: Options = {
+const thursAfterFood: Options = {
   optionText: "and then",
   subOptions: [
     {
@@ -677,10 +655,37 @@ export const thursAfterFood: Options = {
       ],
     },
     { optionText: "do number 15." },
-    { optionText: "that's it." },
   ],
 };
+const thatsIt: Options = { optionText: "and that's it." };
 
+export const thursFood: Options = {
+  optionText: "I want to ",
+  subOptions: [
+    {
+      optionText: "make food at ",
+      subOptions: [
+        {
+          optionText: "August's apartment",
+          subOptions: [thursAfterFood, thatsIt],
+        },
+        { optionText: "my house", subOptions: [thursAfterFood, thatsIt] },
+      ],
+    },
+    {
+      optionText: "buy food and eat it at ",
+      subOptions: [
+        {
+          optionText: "August's apartment",
+          subOptions: [thursAfterFood, thatsIt],
+        },
+        { optionText: "my house", subOptions: [thursAfterFood, thatsIt] },
+        { optionText: "the restaurant", subOptions: [thursAfterFood, thatsIt] },
+        { optionText: "the park", subOptions: [thursAfterFood, thatsIt] },
+      ],
+    },
+  ],
+};
 export const chatGPTstory = {
   subOptions: [
     {

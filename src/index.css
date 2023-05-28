@@ -78,8 +78,7 @@ button:hover {
   background-color: transparent;
   color: white;
   border: 1px solid white;
-  font-size: 14pt;
-  border-radius: .25rem;
+  border-radius: 25px;
   transition-duration: .5s;
 }
 
@@ -88,18 +87,23 @@ button.cancelButton {
   background-color: transparent;
   color: white;
   border: 1px solid transparent;
-  width: 0px;
+  width: 5px;
   position: relative;
   bottom: -20px;
+  left: -5px;
   transition-duration: .5s;
   border-radius: 0%;
   height: 25px;
-    margin-left: 0rem;
+  margin-left: 0rem;
 }
 button.cancelButton:hover {
  border-top: 1px solid white;
  border-radius: 15%;
  transition-duration: .5s;
- width: 50px;
+ width: 5px;
  height: 25px;
+ color:transparent;
+}
+div.m-2 {
+  margin:2rem;
 }
