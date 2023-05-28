@@ -632,14 +632,14 @@ export const thursFood: Options = {
       optionText: "make food at ",
       subOptions: [
         { optionText: "August's apartment" },
-        { optionText: "Claire's house" },
+        { optionText: "my house" },
       ],
     },
     {
       optionText: "buy food and eat it at ",
       subOptions: [
         { optionText: "August's apartment" },
-        { optionText: "Claire's house" },
+        { optionText: "my house" },
         { optionText: "the restaurant" },
         { optionText: "the park" },
       ],
@@ -653,25 +653,136 @@ export const thursAfterFood: Options = {
     {
       optionText: "watch a movie at",
       subOptions: [
-        { optionText: "August's apartment" },
-        { optionText: "Claire's house" },
-        { optionText: "the movie theater" },
+        { optionText: "August's apartment." },
+        { optionText: "my house." },
+        { optionText: "the movie theater." },
       ],
     },
     {
-      optionText: "build a lego set at",
+      optionText: "talk while building a Lego set at",
       subOptions: [
-        { optionText: "August's apartment" },
-        { optionText: "Claire's house" },
-        { optionText: "the park" },
+        { optionText: "August's apartment." },
+        { optionText: "my house." },
+        { optionText: "the park." },
+        { optionText: "a place I want to choose." },
       ],
     },
     {
-      optionText: "play a board game at ",
+      optionText: "play a board game at",
       subOptions: [
-        { optionText: "August's apartment" },
-        { optionText: "Claire's house" },
-        { optionText: "the park" },
+        { optionText: "August's apartment." },
+        { optionText: "my house." },
+        { optionText: "the park." },
+        { optionText: "a place I want to choose." },
+      ],
+    },
+    { optionText: "do number 15." },
+    { optionText: "that's it." },
+  ],
+};
+
+export const chatGPTstory = {
+  subOptions: [
+    {
+      optionText: "A Nervous Man Asks Out a Woman",
+      subOptions: [
+        {
+          optionText: "The man musters up the courage to approach the woman",
+          subOptions: [
+            {
+              optionText: "and he smiles at her hesitantly",
+              subOptions: [
+                {
+                  optionText:
+                    "The woman blushes and responds with a positive answer",
+                  subOptions: [
+                    {
+                      optionText: "The couple goes on their first date",
+                      subOptions: [
+                        {
+                          optionText:
+                            "The couple chooses a cozy café as their venue",
+                          subOptions: [
+                            {
+                              optionText: "They enjoy the intimate atmosphere",
+                              subOptions: [
+                                {
+                                  optionText:
+                                    "and engage in meaningful conversation",
+                                },
+                                {
+                                  optionText:
+                                    "and savor the delicious food and drinks",
+                                },
+                              ],
+                            },
+                          ],
+                        },
+                        {
+                          optionText:
+                            "The couple decides to go for a walk in the park",
+                          subOptions: [
+                            {
+                              optionText:
+                                "They enjoy the beautiful surroundings",
+                              subOptions: [
+                                {
+                                  optionText:
+                                    "and have a picnic under a shady tree",
+                                },
+                                { optionText: "and play frisbee together" },
+                              ],
+                            },
+                          ],
+                        },
+                        {
+                          optionText: "The couple explores a local museum",
+                          subOptions: [
+                            {
+                              optionText: "They admire the impressive exhibits",
+                              subOptions: [
+                                {
+                                  optionText:
+                                    "and engage in deep conversations about art",
+                                },
+                                {
+                                  optionText:
+                                    "and take memorable photos together",
+                                },
+                              ],
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  optionText: "The woman politely declines his invitation",
+                  subOptions: [
+                    {
+                      optionText: "The man handles the rejection gracefully",
+                      subOptions: [
+                        {
+                          optionText:
+                            "He decides to go out with friends and have a fun night",
+                        },
+                        {
+                          optionText:
+                            "He focuses on personal growth and self-improvement",
+                        },
+                        {
+                          optionText:
+                            "He remains optimistic and looks forward to future opportunities",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
   ],

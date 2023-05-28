@@ -16,12 +16,15 @@ export const SentenceBlock = (props: IProps): JSX.Element => {
   );
 
   const [hasRendered, setHasRendered] = useState(false);
-  useEffect(() => setHasRendered(true), []);
+  useEffect(() => setHasRendered(true), [selectedOption]);
   if (subOptions !== undefined && subOptions.length !== 0) {
     if (selectedOption === undefined) {
       const optionMap = subOptions.map((opt) => {
         return (
-          <button onClick={() => setSelectedOption(opt)}>
+          <button
+            onClick={() => setSelectedOption(opt)}
+            className={hasRendered ? "hasRendered" : "hasNotRendered"}
+          >
             {opt.optionText + (opt.subOptions ? "..." : "")}
           </button>
         );
@@ -47,7 +50,10 @@ export const SentenceBlock = (props: IProps): JSX.Element => {
           ) : null}
           <button
             className="cancelButton"
-            onClick={() => setSelectedOption(undefined)}
+            onClick={() => {
+              setHasRendered(false);
+              setSelectedOption(undefined);
+            }}
           >
             {"^"}
           </button>
