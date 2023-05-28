@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cool-app-4000/static/css/main.e6436e4c.css",
-    "main.js": "/cool-app-4000/static/js/main.22a5d423.js",
+    "main.css": "/cool-app-4000/static/css/main.c0642c6f.css",
+    "main.js": "/cool-app-4000/static/js/main.a84e8e6a.js",
     "static/js/787.a28bbcbb.chunk.js": "/cool-app-4000/static/js/787.a28bbcbb.chunk.js",
     "index.html": "/cool-app-4000/index.html",
-    "main.e6436e4c.css.map": "/cool-app-4000/static/css/main.e6436e4c.css.map",
-    "main.22a5d423.js.map": "/cool-app-4000/static/js/main.22a5d423.js.map",
+    "main.c0642c6f.css.map": "/cool-app-4000/static/css/main.c0642c6f.css.map",
+    "main.a84e8e6a.js.map": "/cool-app-4000/static/js/main.a84e8e6a.js.map",
     "787.a28bbcbb.chunk.js.map": "/cool-app-4000/static/js/787.a28bbcbb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6436e4c.css",
-    "static/js/main.22a5d423.js"
+    "static/css/main.c0642c6f.css",
+    "static/js/main.a84e8e6a.js"
   ]
 }
